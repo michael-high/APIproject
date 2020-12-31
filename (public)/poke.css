@@ -1,11 +1,14 @@
 body {
     font-family: sans-serif;
+    background-image: url(https://images.pexels.com/photos/1716861/pexels-photo-1716861.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+    background-size: cover;
   }
   
   .wrapper {
     width: 80%;
     margin: 0 auto;
     display: flex;
+    flex-direction: column;
   }
   
   .controls, .results {
@@ -68,4 +71,16 @@ body {
     background-color: #ccc;
     padding: 5px;
     margin: 5px;
+  }
+
+  #pokeName{
+    text-align: center;
+  }
+  #refreshButton{
+    height:50px;
+    width:100%;
+  }
+  #infoBox{
+    background-color: transparent;
+    border-style:none;
   }
